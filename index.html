@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/icon.jpg">
+    <title>Hands on two</title>
+</head>
+
+<body>
+    <div>
+        <h1>FORMS</h1>
+        <form action="./index2.html">
+            <div>
+                <label for="Name">Name</label>
+                <input id="Name" type="text" name="username" placeholder="Enter Name" autocomplete="true">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="Email">Email</label>
+                <input id="Email" name="email" type="email" placeholder="Enter Email" autocomplete="true">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="Number">Phone Number</label>
+                <input id="Number" name="phoneNumber" type="tel" placeholder="Enter Phone Number" pattern="[0-9]{10}" >
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="Password">Password</label>
+                <input id="Password" name="password" type="password" placeholder="Enter Password">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="language">Language</label>
+                <br>
+                <input type="radio" id="React" name="language" value="React"><label for="React">React</label>
+                <br>
+                <input type="radio" id="Angular" name="language" value="Angular"><label for="Angular">Angular</label>
+                <br>
+                <input type="radio" id="Vue" name="language" value="Vue"><label for="Vue">Vue</label>
+            </div>
+            <br>
+            <div>
+                <label for="course">Course</label>
+                <br>
+                <input id="MEAN" type="checkbox" value="MEAN" name="course1"> <label for="MEAN">MEAN</label>
+                <br>
+                <input id="MEVN" type="checkbox" value="MEVN" name="course2"> <label for="MEVN">MEVN</label>
+                <br>
+                <input id="MERN" type="checkbox" value="MERN" name="course3"> <label for="MERN">MERN</label>
+                <br>
+                <br>
+            </div>
+            <div>
+                <label for="filed">Field:</label>
+                <select name="field" id="field">
+                    <option value="">Select Option</option>
+                    <option value="FrontEnd">Front End</option>
+                    <option value="BackEnd">Back End</option>
+                    <option value="FullStack">Full Stack</option>
+                </select>
+                <br>
+                <br>
+            </div>
+            <div>
+                <textarea name="text1" id="" cols="40" rows="10"></textarea>
+                <br>
+            </div>
+            <button type="submit">Submit</button> <!-- button have by default have type = "submit"-->
+        </form>
+        <h1>TABLES</h1>
+        <a href="./tabel.html">Click Here</a>
+    </div>
+</body>
+
+</html>
